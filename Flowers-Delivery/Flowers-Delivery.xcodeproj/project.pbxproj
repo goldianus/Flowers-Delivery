@@ -11,6 +11,7 @@
 		1B1E30942B98434500F0044A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E30932B98434500F0044A /* ContentView.swift */; };
 		1B1E30962B98434700F0044A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E30952B98434700F0044A /* Assets.xcassets */; };
 		1B1E30992B98434700F0044A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E30982B98434700F0044A /* Preview Assets.xcassets */; };
+		1B6B90A32B99991E00715729 /* SocialMediaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */; };
 		1B949A522B98BB3D006CAEF4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B949A512B98BB3D006CAEF4 /* CreateAccountViewController.swift */; };
 		1B949A552B98CB0B006CAEF4 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B949A542B98CB0B006CAEF4 /* RadioButton.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		1B1E30932B98434500F0044A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B1E30952B98434700F0044A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1E30982B98434700F0044A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaImageView.swift; sourceTree = "<group>"; };
 		1B949A512B98BB3D006CAEF4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		1B949A542B98CB0B006CAEF4 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1B949A542B98CB0B006CAEF4 /* RadioButton.swift */,
+				1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				1B949A522B98BB3D006CAEF4 /* CreateAccountViewController.swift in Sources */,
 				1B1E30942B98434500F0044A /* ContentView.swift in Sources */,
 				1B1E30922B98434500F0044A /* Flowers_DeliveryApp.swift in Sources */,
+				1B6B90A32B99991E00715729 /* SocialMediaImageView.swift in Sources */,
 				1B949A552B98CB0B006CAEF4 /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ struct RadioButton: View {
         }) {
             ZStack {
                 Circle()
-                    .stroke(Color.blue, lineWidth: 2)
+                    .stroke(Color.white, lineWidth: 2)
                     .frame(width: 20, height: 20)
                 
                 if selected {
