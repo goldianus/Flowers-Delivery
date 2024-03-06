@@ -8,10 +8,7 @@
 import SwiftUI
 
 struct CreateAccountViewController: View {
-    @State private var username: String = ""
-    @State private var password: String = ""
     @State private var isLoggedin: Bool = false
-    
     @State private var countryCode: String = ""
     @State private var phoneNumber: String = ""
     @State private var isSelected: Bool = false
@@ -43,7 +40,7 @@ struct CreateAccountViewController: View {
                         .disabled(true)
                     
                     
-                    TextField("Nomor Telepon", text: $phoneNumber)
+                    TextField("xxxx xxxx xxxx", text: $phoneNumber)
                         .padding()
                         .cornerRadius(8)
                         .padding(.horizontal)
@@ -81,7 +78,7 @@ struct CreateAccountViewController: View {
             .navigationTitle("Buat Akun")
         }
         .sheet(isPresented: $isLoggedin, content: {
-            Text("Welcome \(username)")
+            Text("Welcome \(phoneNumber)")
         })
     }
 }
@@ -89,28 +86,3 @@ struct CreateAccountViewController: View {
 #Preview {
     CreateAccountViewController()
 }
-
-
-
-struct RadioButton: View {
-    @Binding var selected: Bool
-    
-    var body: some View {
-        Button(action: {
-            self.selected.toggle()
-        }) {
-            ZStack {
-                Circle()
-                    .stroke(Color.blue, lineWidth: 2)
-                    .frame(width: 20, height: 20)
-                
-                if selected {
-                    Circle()
-                        .fill(Color.blue)
-                        .frame(width: 10, height: 10)
-                }
-            }
-        }
-    }
-}
-
