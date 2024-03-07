@@ -16,6 +16,7 @@ struct CreateAccountViewController: View {
     let defaultCountryCode = "+62"
     
     var body: some View {
+        
         NavigationView {
             VStack {
                 Image("ic-logo")
@@ -82,7 +83,7 @@ struct CreateAccountViewController: View {
                         .foregroundColor(.white)
                         .padding(.horizontal, 20)
                     Text("or")
-                        .frame(width: 40, height: 10)
+                        .frame(width: 40, height: 40)
                         .background(.black)
                 }
                 .padding(.vertical, 16)

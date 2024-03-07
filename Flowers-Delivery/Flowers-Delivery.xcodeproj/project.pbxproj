@@ -14,6 +14,8 @@
 		1B6B90A32B99991E00715729 /* SocialMediaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */; };
 		1B949A522B98BB3D006CAEF4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B949A512B98BB3D006CAEF4 /* CreateAccountViewController.swift */; };
 		1B949A552B98CB0B006CAEF4 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B949A542B98CB0B006CAEF4 /* RadioButton.swift */; };
+		1B9B30852B9C3E4200CDD30D /* LoginAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B30842B9C3E4200CDD30D /* LoginAuthenticationService.swift */; };
+		1B9B30892B9C413C00CDD30D /* LoginOTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B30882B9C413C00CDD30D /* LoginOTPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaImageView.swift; sourceTree = "<group>"; };
 		1B949A512B98BB3D006CAEF4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		1B949A542B98CB0B006CAEF4 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		1B9B30842B9C3E4200CDD30D /* LoginAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAuthenticationService.swift; sourceTree = "<group>"; };
+		1B9B30882B9C413C00CDD30D /* LoginOTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOTPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1B949A512B98BB3D006CAEF4 /* CreateAccountViewController.swift */,
+				1B9B30842B9C3E4200CDD30D /* LoginAuthenticationService.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				1B949A542B98CB0B006CAEF4 /* RadioButton.swift */,
 				1B6B90A22B99991E00715729 /* SocialMediaImageView.swift */,
+				1B9B30882B9C413C00CDD30D /* LoginOTPManager.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -164,9 +170,11 @@
 			files = (
 				1B949A522B98BB3D006CAEF4 /* CreateAccountViewController.swift in Sources */,
 				1B1E30942B98434500F0044A /* ContentView.swift in Sources */,
+				1B9B30852B9C3E4200CDD30D /* LoginAuthenticationService.swift in Sources */,
 				1B1E30922B98434500F0044A /* Flowers_DeliveryApp.swift in Sources */,
 				1B6B90A32B99991E00715729 /* SocialMediaImageView.swift in Sources */,
 				1B949A552B98CB0B006CAEF4 /* RadioButton.swift in Sources */,
+				1B9B30892B9C413C00CDD30D /* LoginOTPManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
